@@ -103,16 +103,21 @@ section {
     padding: 6rem 0;
 }
 
-section.about.about-me-img img {
 
-    height: 450px;
-}
+
+
 
 section.about h1 {
     margin-bottom: 1rem;
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+section.about .about-me-img img {
+    height: 20%;
+    width: 20%;
+}
+
 
 section.about h1 span {
     color: var(--primary);
@@ -142,19 +147,25 @@ section.about .social a {
     justify-content: center;
     width: 35px;
     height: 35px;
+    padding: 2px;
+
     border-radius: 50%;
     margin-right: 0.6rem;
 
 }
 
-section.about .social a img {
-    background: var(--primary);
+section.about .social a svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
 }
 
-section.about .social a img {
-    width: 100%;
-    height: 100%;
+section.about .social img {
+
     padding: 0.5rem;
+
 }
 
 .section-hading {
@@ -429,6 +440,8 @@ footer .footer-socials a svg {
 
 
 }
+
+
 
 footer .copyright {
     color: var(--ternary);
